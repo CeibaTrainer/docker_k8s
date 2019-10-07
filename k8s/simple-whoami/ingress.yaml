@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:  
+  name: whoami
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: nginx   
+spec: 
+  rules:  
+  - http:
+      paths: 
+      - path: /whoami
+        backend:
+          serviceName: whoami
+          servicePort: 80          
