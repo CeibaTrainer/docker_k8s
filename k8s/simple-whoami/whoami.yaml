@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: whoami
+  name: whoami
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: whoami
+  template:
+    metadata:
+      labels:
+        app: whoami
+    spec:     
+      containers:
+      - name : whoami
+        image: jwilder/whoami
+        imagePullPolicy: "Always"       
+        ports:
+        - containerPort: 8000
+          protocol: TCP                                
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 0
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: whoami
+  namespace: default
+  labels:
+    app: whoami
+spec:
+  type: ClusterIP
+  sessionAffinity: ClientIP
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8000
+  selector:
+    app: whoami
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:  
+  name: whoami
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: nginx   
+spec: 
+  rules:  
+  - http:
+      paths: 
+      - path: /whoami
+        backend:
+          serviceName: whoami
+          servicePort: 80          
+---
