@@ -1,0 +1,2 @@
+Run this command to access K8S Dashboard via kubectl proxy
+# kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
