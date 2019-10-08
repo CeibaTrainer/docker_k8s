@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\jose.fernandez\\.nuget\\packages\\",
-        "outputPath": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\WebApplication1\\obj\\",
+        "outputPath": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

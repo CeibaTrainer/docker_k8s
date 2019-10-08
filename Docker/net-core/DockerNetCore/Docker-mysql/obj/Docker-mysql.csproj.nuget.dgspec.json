@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj": {}
+    "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj": {}
   },
   "projects": {
-    "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj": {
+    "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj",
+        "projectUniqueName": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj",
         "projectName": "Docker-mysql",
-        "projectPath": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj",
+        "projectPath": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\Docker-mysql.csproj",
         "packagesPath": "C:\\Users\\jose.fernandez\\.nuget\\packages\\",
-        "outputPath": "D:\\DockerK8STraining\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\obj\\",
+        "outputPath": "D:\\DockerK8STraining\\docker_k8s\\Docker\\net-core\\DockerNetCore\\Docker-mysql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
